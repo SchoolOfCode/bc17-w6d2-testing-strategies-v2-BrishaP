@@ -1,0 +1,35 @@
+You are tasked with testing a search functionality that allows users to specify the number of results per page. The valid range for the number of results per page is between 1 and 100 (inclusive).
+
+Instructions
+
+Task 1: Identify Boundary Values
+Identify the boundary values for the numeric input field.
+
+Lower Boundary: 1
+Below Lower Boundary: 0
+Above Lower Boundary: 2
+
+Upper Boundary: 100
+Below Upper Boundary: 99
+Above Upper Boundary:101
+
+Consider both valid and invalid boundary values.
+
+Valid boundary values: Within and including upper and lower boundaries 
+
+Fill in the table below with the identified boundary values.
+
+Boundary Values
+
+### Task 2: Design Test Cases
+1. Design test cases to cover the identified boundary values.
+2. Ensure that your test cases cover both valid and invalid scenarios.
+3. Fill in the table below with the designed test cases.
+
+| Test Case | Input Value | Expected Result |
+|-----------|-------------|-----------------|
+
+Test cases:
+-Test all of the boundary value numbers
+Input Value:
+1,0,2,100,99,101
