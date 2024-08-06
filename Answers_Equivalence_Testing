@@ -1,0 +1,37 @@
+Equivalence Patitioning Answers
+
+Task 1: Identify Equivalence Classes for Age
+Identify the valid equivalence classes for the Age field.
+Identify the invalid equivalence classes for the Age field.
+Fill in the table below with the identified equivalence classes.
+
+Input Field	:
+Age
+
+Valid Equivalence Classes:
+43, 69, 95
+
+Invalid Equivalence Classes:
+(ages below than 18)
+17,-5 (not born),0
+(ages above 120)
+121, 1100, 145
+
+Task 2: Identify Equivalence Classes for Email
+Identify the valid equivalence classes for the Email field.
+Identify the invalid equivalence classes for the Email field.
+Fill in the table below with the identified equivalence classes.
+
+Input Field:
+Email
+
+Valid Equivalence Classes:
+RandomName@gmail.com
+PersonName123@yuhl-tr.nhs.uk
+HumanBeing45@yahoo.net
+
+Invalid Equivalence Classes:
+
+RandomPersonName@gmail //missing valid TLD 
+myspaceDomain@.uk //domain name is before the @
+@John.net //missing local name 
