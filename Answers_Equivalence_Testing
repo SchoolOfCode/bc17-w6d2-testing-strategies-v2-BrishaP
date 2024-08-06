@@ -35,3 +35,18 @@ Invalid Equivalence Classes:
 RandomPersonName@gmail //missing valid TLD 
 myspaceDomain@.uk //domain name is before the @
 @John.net //missing local name 
+
+<!-- Password: The password should be between 8 and 20 characters (inclusive) and contain at least one uppercase letter, one lowercase letter, and one digit.
+Task 3: Identify Equivalence Classes for Password -->
+
+Identify the valid equivalence classes for the Password field.
+Identify the invalid equivalence classes for the Password field.
+Fill in the table below with the identified equivalence classes.
+
+ Input Field 
+ 
+ Password
+
+ Valid Equivalence Classes 
+
+ Invalid Equivalence Classes |

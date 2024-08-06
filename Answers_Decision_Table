@@ -1,0 +1,43 @@
+Task 1: Identify Conditions and Actions
+List the conditions and their possible values.
+List the actions performed by the shopping cart system.
+
+Conditions & Values
+- Product Type: The product can be either physical or digital.
+- Quantity: The quantity of the product can be 1 or 2.
+- Discount Code: The discount code can be either valid or invalid.
+
+Actions:
+<!-- The shopping cart system performs the following actions based on the combinations of the above conditions:
+- Calculate Subtotal: Always calculated.
+- Apply Discount: Applied only if the discount code is valid.
+- Calculate Tax: Calculated only for physical products.
+- Calculate Shipping: Calculated only for physical products.
+- Calculate Total: Always calculated.
+- Update Inventory: Updated only for physical products.
+- Generate Invoice: Always generated. -->
+
+-Apply discount 
+-Calculate tax
+-Calculate shipping
+-Caculate subtotal& total
+-Update inventory
+-Generate invoice
+
+Task 2: Create the Decision Table
+
+Create a decision table with the identified conditions and actions.
+Fill in the table with the appropriate values for each combination of conditions.
+Ensure that all possible combinations are covered.
+
+Conditions	                 Test Case 1       Test Case 2        Test Case 3
+Product Type	             Physical          Physical           Physical
+Quantity	                 1                 2                  1
+Discount Code	             N                 N                  Y
+Calculate Subtotal	         ££ Always         ££ Always
+Apply Discount	             N/A               N/A
+Calculate Tax	             ££(Y-physical)    ££(Y-physical)
+Calculate Shipping	         ££(Y-physical)    ££(Y-physical)
+Calculate Total	             ££ Always         ££ Always 
+Update Inventory	         Y-physical        Y-physical
+Generate Invoice	         Always            Always
